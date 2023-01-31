@@ -55,7 +55,7 @@ export default function Details(props) {
               
               <Text style={{fontSize: 22, color: 'white', textAlign:"center"}}>
               {/* Display the "main" information from "weather"  */}
-                { }   
+                {data['weather'][0]['main']}   
               </Text>
             </View>
             <Text style={{color: 'white', fontSize: 64}}>
